@@ -1,0 +1,6 @@
+{
+  "name": "PedOnco ChemoTracker",
+  "description": "Pediatric oncology clinical management app for tracking chemotherapy cycles, scheduling regimens by date range, monitoring patient progress, and alerting on missed sessions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,22 @@
+{
+  "entities": {
+    "Patient": {
+      "title": "Patient",
+      "description": "Pediatric oncology patient record",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "mrn": { "type": "string" },
+        "diagnosis": { "type": "string" }
+      },
+      "required": ["id", "name", "mrn", "diagnosis"]
+    }
+  },
+  "firestore": {
+    "users/{userId}/patients/{patientId}": {
+      "schema": "Patient",
+      "description": "Patients collection per user workspace"
+    }
+  }
+}
